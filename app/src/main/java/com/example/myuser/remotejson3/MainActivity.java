@@ -52,8 +52,8 @@ public class MainActivity extends Activity {
         dynamiclayout = (LinearLayout) findViewById(R.id.dynmicLayout);
 
         //Radio Group
-        radioTextView = (TextView) findViewById(R.id.redioTextView);
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
+        radioTextView = (TextView)findViewById(R.id.redioTextView);
+        radioGroup = (RadioGroup)findViewById(R.id.radioGroup1);
         //RadioButton
         radioButton1 = (RadioButton) findViewById(R.id.radio1);
         radioButton2 = (RadioButton) findViewById(R.id.radio2);
@@ -197,6 +197,7 @@ public class MainActivity extends Activity {
                 }
 
                 System.out.println("survey " + survey);
+
 
             }
             return true;

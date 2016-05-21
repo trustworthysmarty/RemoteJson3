@@ -27,7 +27,7 @@ public class Signup extends Activity implements View.OnClickListener{
         switch (view.getId())
         {
             case R.id.btnSignup:
-                Intent sign=new Intent(this,MainActivity.class);
+                Intent sign=new Intent(this,Quetion_One.class);
                 startActivity(sign);
                 break;
         /*    case R.id.btnFacebook:
